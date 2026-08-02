@@ -1,0 +1,14 @@
+{
+    "files.exclude": {
+        ".devcontainer": true,
+        "scripts": true,
+        ".gitignore": true,
+        ".gitattributes": true,
+        "LICENSE": true,
+        ".vscode": true,
+        "labs/lab*/*.png": true,
+    },
+    "workbench.editorAssociations": {
+        "*.md": "vscode.markdown.preview.editor"
+    }
+}
