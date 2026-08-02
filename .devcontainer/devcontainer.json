@@ -1,0 +1,16 @@
+{
+  "name": "CS F342 CA Labs",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "mshr-h.veriloghdl",
+        "lramseyer.vaporview"
+      ]
+    }
+  },
+  "remoteUser": "vscode",
+  "postCreateCommand": "chmod +x scripts/*.sh"
+}
